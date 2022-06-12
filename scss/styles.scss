@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import 'utilities/variables';
+@import 'layout/footer';
+@import 'layout/header';
+@import 'layout/index';
+@import 'responsive/mobile';
+@import 'responsive/tablet';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+// p {
+//     margin: 0;
+// }
+
+a {
+    text-decoration: none;
+}
+
+@media (max-width:500px) {
+
+    html {
+        font-size: 50%;
+    }
+
+    .footer, .footer-brand {
+        flex-direction: column;
+    }
+
+    .footer-nav {
+        align-items: center;
+    }
+
+    .navbar-collapse {
+        width: 100%;
+
+    }
+
+}

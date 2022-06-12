@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+.footer {
+  background-color: #9e9e9e;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem; }
+
+.footer-brand {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end; }
+
+.footer-logo {
+  height: 11rem;
+  width: 12.5rem;
+  border-radius: 20px;
+  margin-right: 1rem; }
+
+.footer-brand-lobo {
+  font-size: 5rem;
+  font-family: "Bebas Neue", cursive;
+  color: white;
+  text-shadow: 2px 2px 2px #f83737;
+  text-decoration: none; }
+
+.footer-nav-item {
+  font-size: 1.4rem; }
+
+.direccion {
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 1.2rem; }
+
+.navbar {
+  background-color: #9e9e9e; }
+
+.navbar-display {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  margin-left: 1rem; }
+
+.header-logo-brand {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.header-logo {
+  height: 11rem;
+  width: 12.5rem;
+  border-radius: 20px; }
+
+.header-brand {
+  font-size: 5rem;
+  font-family: "Bebas Neue", cursive;
+  color: white;
+  text-shadow: 2px 2px 2px #f83737;
+  text-decoration: none;
+  margin: 0;
+  padding: 0; }
+
+.header-items {
+  margin-right: 1rem; }
+
+.nav-item {
+  background-color: white;
+  margin: 0.5rem;
+  border-radius: 8px;
+  text-align: center; }
+
+.btn-inicio {
+  color: #f83737; }
+
+.nav-link {
+  color: black;
+  text-align: center; }
+
+.body-index {
+  background-color: #f83737; }
+
+.index-cards {
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  background-color: #f83737; }
+
+.card {
+  margin: 0.5rem;
+  justify-content: center;
+  align-items: center; }
+
+.index-cards-btn {
+  font-size: 1.5rem;
+  background-color: black;
+  color: white; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%; }
+
+a {
+  text-decoration: none; }
+
+@media (max-width: 500px) {
+  html {
+    font-size: 50%; }
+  .footer, .footer-brand {
+    flex-direction: column; }
+  .footer-nav {
+    align-items: center; }
+  .navbar-collapse {
+    width: 100%; } }

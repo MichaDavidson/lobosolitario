@@ -1,0 +1,23 @@
+.body-index {
+    background-color: $red;
+}
+
+.index-cards {
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    background-color: $red;
+}
+
+.card {
+    margin: 0.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.index-cards-btn {
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+}
